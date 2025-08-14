@@ -66,6 +66,24 @@ export function AccountLinkingModal({ isOpen, onClose, network, onAccountLinked 
         return "Käytä Fortum Charge & Drive -sovelluksen kirjautumistietojasi."
       case "Recharge":
         return "Käytä Recharge-sovelluksen kirjautumistietojasi."
+      case "Plugit":
+        return "Käytä Plugit-sovelluksen kirjautumistietojasi."
+      case "IONITY":
+        return "Käytä IONITY-sovelluksen tai verkkosivuston kirjautumistietojasi."
+      case "Tesla Supercharger":
+        return "Käytä Tesla-tilisi kirjautumistietoja. Tarvitset Tesla-tilin myös muilla autoilla."
+      case "Mer":
+        return "Käytä Mer-sovelluksen kirjautumistietojasi."
+      case "Vattenfall InCharge":
+        return "Käytä Vattenfall InCharge -sovelluksen kirjautumistietojasi."
+      case "Kople":
+        return "Käytä Kople-sovelluksen kirjautumistietojasi."
+      case "Uno-X":
+        return "Käytä Uno-X-sovelluksen kirjautumistietojasi."
+      case "Lidl":
+        return "Käytä Lidl Plus -sovelluksen kirjautumistietojasi."
+      case "Allego":
+        return "Käytä Allego-sovelluksen kirjautumistietojasi."
       default:
         return "Käytä kyseisen palvelun kirjautumistietojasi."
     }

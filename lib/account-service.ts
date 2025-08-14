@@ -21,6 +21,15 @@ const DEFAULT_ACCOUNTS: NetworkAccount[] = [
   { name: "ABC Lataus", logo: "⛽", status: "not_connected", stations: "600+", accountEmail: null },
   { name: "Fortum", logo: "🌿", status: "not_connected", stations: "38,000+", accountEmail: null },
   { name: "Recharge", logo: "🔌", status: "not_connected", stations: "15,000+", accountEmail: null },
+  { name: "Plugit", logo: "🔌", status: "not_connected", stations: "15,000+", accountEmail: null },
+  { name: "IONITY", logo: "⚡", status: "not_connected", stations: "500+", accountEmail: null },
+  { name: "Tesla Supercharger", logo: "🚗", status: "not_connected", stations: "50+", accountEmail: null },
+  { name: "Mer", logo: "🌊", status: "not_connected", stations: "1,000+", accountEmail: null },
+  { name: "Vattenfall InCharge", logo: "💡", status: "not_connected", stations: "2,000+", accountEmail: null },
+  { name: "Kople", logo: "🔗", status: "not_connected", stations: "300+", accountEmail: null },
+  { name: "Uno-X", logo: "⛽", status: "not_connected", stations: "200+", accountEmail: null },
+  { name: "Lidl", logo: "🛒", status: "not_connected", stations: "100+", accountEmail: null },
+  { name: "Allego", logo: "🔋", status: "not_connected", stations: "800+", accountEmail: null },
 ]
 
 export function getStoredAccounts(): NetworkAccount[] {

@@ -1,7 +1,13 @@
 import type React from "react"
-import type { Metadata } from "next"
-import { DM_Sans } from "next/font/google"
+import type { Metadata, Viewport } from "next"
+import { Plus_Jakarta_Sans, DM_Sans } from "next/font/google"
 import "./globals.css"
+
+const plusJakarta = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-plus-jakarta",
+})
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -10,9 +16,13 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "ChargeHub - EV Charging Made Simple",
-  description: "One app for all EV charging networks in Finland",
-  generator: "v0.app",
+  title: "Voltteri - Yksi sovellus. Kaikki lataukset.",
+  description: "Voltteri yhdistaa kaikki latausverkostot, reitit ja tilastot yhteen sovellukseen.",
+    generator: 'v0.app'
+}
+
+export const viewport: Viewport = {
+  themeColor: "#080c10",
 }
 
 export default function RootLayout({
@@ -21,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="fi" className={`${dmSans.variable} antialiased`}>
+    <html lang="fi" className={`${plusJakarta.variable} ${dmSans.variable} antialiased`}>
       <body className="font-sans">{children}</body>
     </html>
   )

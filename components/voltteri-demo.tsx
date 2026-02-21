@@ -143,7 +143,7 @@ function DashboardView() {
         </div>
 
         <div className="bg-ev-blue/[0.08] border border-ev-blue/20 rounded-xl p-3.5 flex items-center gap-3 text-xs">
-          <span className="text-lg shrink-0">{"\\uD83C\\uDF31"}</span>
+          <span className="text-lg shrink-0">{"\uD83C\uDF31"}</span>
           <p className="text-muted-foreground leading-relaxed">Olet saastanyt <strong className="text-ev-blue">41 kg CO2</strong> tana kuuna ajamalla sahkolla.</p>
         </div>
 
@@ -374,7 +374,7 @@ function HistoryView() {
         </div>
 
         <div className="bg-ev-blue/[0.08] border border-ev-blue/20 rounded-xl p-3.5 flex items-center gap-3 text-xs">
-          <span className="text-lg shrink-0">{"\\uD83C\\uDF31"}</span>
+          <span className="text-lg shrink-0">{"\uD83C\uDF31"}</span>
           <p className="text-muted-foreground leading-relaxed">Helmikuussa saastit <strong className="text-ev-blue">41 kg CO2</strong>. Vuodessa se on jo <strong className="text-ev-blue">~500 kg</strong>.</p>
         </div>
       </div>
@@ -461,7 +461,7 @@ function RouteView() {
         </button>
 
         <div className="bg-ev-blue/[0.08] border border-ev-blue/20 rounded-xl p-3.5 flex items-center gap-3 text-xs">
-          <span className="text-lg shrink-0">{"\\uD83D\\uDCA1"}</span>
+          <span className="text-lg shrink-0">{"\uD83D\uDCA1"}</span>
           <p className="text-muted-foreground leading-relaxed">{"Vihje: Lahde klo 14\u201316 ja saastat ~2\u20ac \u2014 hinnat ovat matalammat ruuhkan ulkopuolella."}</p>
         </div>
       </div>

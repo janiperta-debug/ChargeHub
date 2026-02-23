@@ -17,7 +17,7 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: "Voltteri - Yksi sovellus. Kaikki lataukset.",
-  description: "Voltteri yhdistaa kaikki latausverkostot, reitit ja tilastot yhteen sovellukseen.",
+  description: "Voltteri yhdist\u00e4\u00e4 kaikki latausverkostot, sessiohistorian ja tilastot yhteen sovellukseen.",
     generator: 'v0.app'
 }
 

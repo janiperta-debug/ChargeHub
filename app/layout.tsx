@@ -18,11 +18,29 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Voltteri - Yksi sovellus. Kaikki lataukset.",
   description: "Voltteri yhdist\u00e4\u00e4 kaikki latausverkostot, sessiohistorian ja tilastot yhteen sovellukseen.",
-    generator: 'v0.app'
+  applicationName: "Voltteri",
+  manifest: "/manifest.webmanifest",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "Voltteri",
+  },
+  icons: {
+    icon: [
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
+  },
+  generator: "v0.app",
 }
 
 export const viewport: Viewport = {
   themeColor: "#080c10",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 }
 
 export default function RootLayout({
